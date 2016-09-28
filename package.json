@@ -1,0 +1,26 @@
+{
+  "name": "YT-PT-migration",
+  "version": "1.0.0",
+  "description": "YouTrack to Pivotal Tracker migration scripts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rooks/YT-PT-migration.git"
+  },
+  "main": "import.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "dotenv": "^2.0.0",
+    "glob": "^7.1.0",
+    "lodash": "^4.15.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.15.1",
+    "q": "^1.4.1",
+    "queue": "^4.0.0",
+    "request": "^2.74.0",
+    "xml2js": "^0.4.17",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "Alexander Lobankov <tigra.by@gmail.com>",
+  "license": "MIT"
+}
